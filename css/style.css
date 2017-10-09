@@ -1,0 +1,82 @@
+html{
+  height: 100%;
+  color: white;
+}
+
+body{
+  background-color: #EAE3EA;
+  background-size: cover;
+  font-family: 'Noto Serif', serif;
+  color: #EAE3EA;
+  text-shadow: 0.2px 0.2px #000000;
+}
+
+
+.jumbotron{
+  text-align: center;
+  background-color: rgba(181, 99, 87, 0.60);
+}
+
+
+.container {
+  text-align: center;
+}
+
+.container-fluid {
+  padding-top: 20px !important;
+}
+
+.container-fluid button {
+  
+  margin-top: 8px !important;
+  margin-right: 8px !important;
+}
+
+.modal {
+  display: none; 
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top:0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content {
+  background-color: rgb(181, 99, 87);
+  margin: 20% auto;
+  width: 70%;
+  box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2), 0 7px 20px 0 rgba(0,0,0,0.2);
+  animation-name: modalopen;
+  animation-duration: 1s;
+}
+
+.navbar {
+  height:100px;
+  background-color: rgb(181, 99, 87);
+  border: 0.5px solid black;
+}
+
+
+.navbar-default,.navbar-brand, .navbar-nav > li > a, .dropdown-menu {
+  color: #EAE3EA !important;
+}
+
+
+
+.carousel {
+  margin-top: 10px;
+  width: 100%;
+  margin: 0px auto 20px;
+}
+
+footer {
+  margin-top: 30px;
+  text-align: center;
+  color: rgb(181, 99, 87); 
+}
+
+
+
