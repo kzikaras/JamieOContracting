@@ -11,6 +11,26 @@ body{
   text-shadow: 0.2px 0.2px #000000;
 }
 
+form {
+  max-width: 80%;
+}
+
+.closeBtn:hover {
+  cursor: pointer;
+}
+
+
+.my-cards {
+
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px; /* Added */
+
+  
+  text-align: center;
+  color: rgb(181, 99, 87);
+  text-shadow: 0.2px 0.2px #000000;
+}
 
 .jumbotron{
   text-align: center;
@@ -32,6 +52,10 @@ body{
   margin-right: 8px !important;
 }
 
+span {
+  font-size: 300% !important;
+}
+
 .modal {
   display: none; 
   position: fixed;
@@ -42,6 +66,10 @@ body{
   width: 100%;
   overflow: auto;
   background-color: rgba(0,0,0,0.5);
+}
+
+.modal-body p {
+  background-color: #EAE3EA !important;
 }
 
 .modal-content {
@@ -76,6 +104,11 @@ footer {
   margin-top: 30px;
   text-align: center;
   color: rgb(181, 99, 87); 
+}
+
+@keyframes modalopen{
+  from{opacity: 0}
+  to {opacity:1}
 }
 
 
