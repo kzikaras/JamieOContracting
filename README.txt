@@ -1,3 +1,3 @@
-A Pen created at CodePen.io. You can find this one at https://codepen.io/kzikaras/pen/zEEoEr.
+Here is an example of a website I built for a client of mine while freelancing.
 
  
